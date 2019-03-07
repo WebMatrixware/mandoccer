@@ -1,19 +1,33 @@
 {
   "name": "mandoccer",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Generate basic documentation from various sources for intranet sites and docs pages",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
+    "semantic-release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/WebMatrixware/mandoccer.git"
+    "url": "https://github.com/WebMatrixware/mandoccer.git"
   },
   "author": "Ben Lanning <blanning@all-mode.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/WebMatrixware/mandoccer/issues"
   },
-  "homepage": "https://github.com/WebMatrixware/mandoccer#readme"
+  "homepage": "https://github.com/WebMatrixware/mandoccer#readme",
+  "devDependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.13.3",
+    "semantic-release-cli": "^4.1.0"
+  },
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
