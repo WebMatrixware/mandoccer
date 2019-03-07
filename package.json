@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "semantic-release": "semantic-release",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/lab/bin/lab"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/WebMatrixware/mandoccer#readme",
   "devDependencies": {
+    "code": "^5.2.4",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
+    "eslint-config-hapi": "^12.0.0",
+    "eslint-plugin-hapi": "^4.1.0",
+    "lab": "^18.0.2",
     "semantic-release": "^15.13.3",
     "semantic-release-cli": "^4.1.0"
   },
