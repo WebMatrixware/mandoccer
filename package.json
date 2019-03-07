@@ -1,0 +1,19 @@
+{
+  "name": "mandoccer",
+  "version": "1.0.0",
+  "description": "Generate basic documentation from various sources for intranet sites and docs pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WebMatrixware/mandoccer.git"
+  },
+  "author": "Ben Lanning <blanning@all-mode.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebMatrixware/mandoccer/issues"
+  },
+  "homepage": "https://github.com/WebMatrixware/mandoccer#readme"
+}
