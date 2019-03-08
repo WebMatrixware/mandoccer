@@ -3,5 +3,7 @@ module.exports = {
   threshold: 95,
   lint: true,
   colors: true,
-  verbose: true
+  verbose: true,
+  reporter: ['console', 'html'],
+  output: ['stdout', 'coverage/coverage.html']
 };
